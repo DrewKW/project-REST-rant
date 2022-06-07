@@ -7,7 +7,7 @@ function home () {
             <main>
     <h1>HOME</h1>
     <div >
-      <img height="300" width="500" src="/images/chia-fruit-drink.jpg" alt="Chia Fruit Shake" />
+      <img height="300" width="500" src="/images/Graze-Chia-seed-drink-in-glasses-1170x617.jpg" alt="Chia Fruit Shake" />
       <div>
         Photo by <a href="AUTHOR_LINK">Brenda Godinez</a> on <a href="UNSPLASH_LINK">Unsplash</a>
       </div>
