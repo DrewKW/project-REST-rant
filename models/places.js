@@ -10,21 +10,8 @@ const placeSchema = new mongoose.Schema({
     type: Number,
     min: [1673, 'Surely not that old?!'],
     max: [new Date().getFullYear(), 'Hey, this year is in the future!']
-  }
-})
-
-router.post('/', (req, res) => {
-  
-  }
-
-  db.Place.create(req.body)
-  .then(() => {
-      res.redirect('/places')
-  })
-  .catch(err => {
-      console.log('err', err)
-      res.render('error404')
-  })
+  },
+  comments: [{ type: mongoose,Schema.Types.ObjectId, ref: 'Comment' }]
 })
 
 
